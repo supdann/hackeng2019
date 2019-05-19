@@ -1,0 +1,12 @@
+{
+	"status": "success",
+	"result": {
+	  "apiKey": "AIzaSyDeMnXQUvfGbJZ14MK0msTrm7X_N1p6uwA",
+	  "databaseURL": "https://alwaystuned2019.firebaseio.com",
+	  "storageBucket": "alwaystuned2019.appspot.com",
+	  "authDomain": "alwaystuned2019.firebaseapp.com",
+	  "messagingSenderId": "310458430043",
+	  "projectId": "alwaystuned2019"
+	}
+  }
+  
