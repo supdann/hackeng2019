@@ -12,7 +12,7 @@ import loaderImg from '../ring2.svg'
 
 const styles = {
 	currentValuesContainer: {
-		
+
 	},
 	containerStyle: {
 		padding: "20px",
@@ -34,7 +34,6 @@ class EngineDataPage extends React.Component {
 			this.props.setLoading()
 			setInterval(async () => {
 				const response = await this.props.loadEngineData(this.props.match.params.id)
-				console.log(response)
 			}, 1000)
 		} catch (e) { console.log(e) }
 
