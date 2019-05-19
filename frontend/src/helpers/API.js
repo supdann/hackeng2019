@@ -8,5 +8,6 @@ export default {
 	},
 	getEngineData(id) {
 		return axios.get(`http://localhost:5000/alwaystuned2019/us-central1/api/engines/by-id/${id}`)
+		// return axios.get(`https://us-central1-alwaystuned2019.cloudfunctions.net/api/engines/by-id/${id}`)
 	},
 }
